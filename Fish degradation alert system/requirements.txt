@@ -1,0 +1,8 @@
+matplotlib==3.10.8
+numpy==2.4.2
+pandas==3.0.1
+scikit-learn==1.8.0
+seaborn==0.13.2
+tensorflow==2.20.0
+tqdm>=4.60
+statsmodels==0.14.0
