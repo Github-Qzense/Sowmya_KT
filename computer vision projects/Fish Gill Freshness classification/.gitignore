@@ -1,0 +1,46 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Logs
+logs/*.log
+
+# Streamlit cache
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Data (if large)
+data/
+data/raw/*
+!data/raw/.gitkeep
+*.png
+*.jpg
+
+
+# Models (if large)
+models/*
+!models/.gitkeep
+
+# Results
+results/*
+!results/.gitkeep
