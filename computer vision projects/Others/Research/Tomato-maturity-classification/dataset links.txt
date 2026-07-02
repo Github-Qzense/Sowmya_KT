@@ -1,0 +1,3 @@
+1. https://www.kaggle.com/datasets/sujaykapadnis/tomato-maturity-detection-and-quality-grading
+
+2. https://www.kaggle.com/datasets/nexuswho/laboro-tomato

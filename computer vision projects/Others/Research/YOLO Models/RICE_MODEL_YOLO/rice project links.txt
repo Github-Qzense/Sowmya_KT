@@ -1,0 +1,48 @@
+1. https://www.agriculturejournal.org/volume12number2/quality-assessment-of-rice-using-convolution-neural-networks-and-other-machine-learning-techniques-a-comparative-study/
+2. https://universe.roboflow.com/first-pijnk/wheat-quality-detection/dataset/2/images?split=train
+3. https://www.kaggle.com/datasets/warcoder/wheat-categories-for-sun-pest-damage-detection
+4. https://universe.roboflow.com/first-pijnk/wheat-quality-detection
+5. https://github.com/hellodfan/GrainSet?tab=readme-ov-file
+6. https://www.nature.com/articles/s41597-023-02660-8
+7.https://openaccess.thecvf.com/content/CVPR2022/papers/Fan_GrainSpace_A_Large-Scale_Dataset_for_Fine-Grained_and_Domain-Adaptive_Recognition_of_CVPR_2022_paper.pdf
+8. https://www.google.com/search?q=Grain+quality+image+dataset+for+computer+vision&num=10&sca_esv=61e37518a919a791&sxsrf=AE3TifNx7-9iT0Y8xH_63QqX7suDG30TLw:1750673103401&ei=zyZZaM-kGK2aseMPhficuAQ&start=20&sa=N&sstk=Ac65TH7HlCni3mkRu9hTykZzjYqlZobfDRTdYv8nDaYQ6Oil_KdudtuCHpwOmwn0rI-K2dmOUlByYRDKKvyEEjEt9H6Vur98qP2HbAoIdwuEy95icvE1PK4HUGmbvHMocpNg&ved=2ahUKEwiPyMjDpYeOAxUtTWwGHQU8B0c4ChDw0wN6BAgIEBc&biw=1707&bih=746&dpr=1.13
+
+
+9. 
+10. https://www.ijraset.com/research-paper/quality-testing-of-food-grains-using-image-processing-and-neural-network
+11. https://www.researchgate.net/publication/372080763_Inspection_and_classification_of_wheat_quality_using_image_processing
+12. https://ieeexplore.ieee.org/document/10170446
+13. https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset
+14. https://www.ijraset.com/research-paper/rice-grains-detection-classification-and-quality-prediction-using-deep-learning
+15. https://www.ijraset.com/best-journal/rice-grains-detection-classification-and-quality-prediction-using-deep-learning
+16. https://pubs.aip.org/aip/acp/article-abstract/3007/1/070001/3266324/Grain-quality-analysis-from-the-image-through-the?redirectedFrom=fulltext
+
+17. https://indexnine.com/casestudies/grain-quality-analysis-using-ml/
+18. https://www.optisolbusiness.com/insight/computer-vision-based-grain-quality-estimation-solution-for-agritech
+19. https://easyodm.tech/food-grain-sorting-with-computer-vision/
+20. https://easyodm.tech/grain-sample-analysis/
+21. https://universe.roboflow.com/search?q=rice%2520quality
+22. https://universe.roboflow.com/project-eatoh/stone-detection-xlwfy
+23. https://universe.roboflow.com/akhiflop-detection-datasets/rice-grain-pest
+
+24. https://gemini.google.com/app/d73266da6c08e873
+
+25. https://www.google.com/search?q=Publicly+available+datasets+for+cereal+grain+quality&oq=Publicly+available+datasets+for+cereal+grain+quality&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBBzY3OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+26. https://arxiv.org/abs/2203.05306#:~:text=We%20present%20a%20large%2Dscale,images%20determined%20by%20professional%20inspectors.
+27. https://github.com/hellodfan/GrainSpace?tab=readme-ov-file
+28. https://pan.baidu.com/s/1dNASszevSRLOTb6VOJIbRw
+29. https://www.catalyzex.com/paper/an-overall-real-time-mechanism-for
+
+An Overall Real-Time Mechanism for Classification
+and Quality Evaluation of Rice
+
+30. file:///C:/Users/sowmy/Downloads/IRJET-V10I852.pdf
+31. https://www.google.com/search?udm=50&aep=46&source=25q2-IN-MSA-email&nord=1&q=rice+quality+detection+using+machine+learning&mstk=AUtExfBnAu5QTaCF9jkWjwfHUYq4j5nx8dK_xr0bNr7svvpnQHSRvTqZNN9F-AEhY7-hWcUKe4o5EgF5lArUEhLk9oZbcYnRXd5i97sleSy2eJnFS3cK3GAlKbnc-sE2vrmhT_7O-SSTYBg8LhGgreG1Ncme4vTZOG74onMiTlCvK948C9n0WNIhKE3c6_fs2-5PwGNLPWXblqRLFWBt9PWX8kZwem7C1t0I29UKf3uiiL_4GAkZrHbvl1iAkl4YoBCpdZ3u9K5A-hZ3AMVICArXqDTiPkbUucEDqOo&csuir=1
+
+32. https://www.ijraset.com/research-paper/quality-analysis-and-classification-of-rice-using-image-processing#:~:text=Images%20in%20which%20rice%20grains,FUTURE%20WORK
+33. https://www.ijraset.com/best-journal/quality-analysis-and-classification-of-rice-using-image-processing
+
+34. https://ijrpr.com/uploads/V4ISSUE5/IJRPR13140.pdf
+35. https://www.agriculturejournal.org/volume12number2/quality-assessment-of-rice-using-convolution-neural-networks-and-other-machine-learning-techniques-a-comparative-study/#:~:text=Rice%20grains%20and%20corn%20seeds,accuracies%2096%25%20and%20100%25.
+36. 
