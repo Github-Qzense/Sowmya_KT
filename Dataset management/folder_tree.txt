@@ -1,22 +1,4 @@
 Dataset management
-├── App Testing/
-│   ├── notebooks/
-│   │   └── New app data analysis.ipynb
-│   ├── raw_data/
-│   │   ├── input/
-│   │   │   └── 2024-12-17/
-│   │   │       └── sardine/
-│   │   │           ├── Bad/
-│   │   │           └── Good/
-│   │   └── output/
-│   │       └── 2024-12-17/
-│   │           └── sardine/
-│   ├── src/
-│   │   ├── app_testing_results_analysis.py
-│   │   ├── run_downloads.py
-│   │   ├── s3_downloader.py
-│   │   └── segment_app_testing_data.py
-│   └── README.md
 ├── Data Collection/
 │   ├── Download_s3_data.ipynb
 │   ├── Final Data.ipynb

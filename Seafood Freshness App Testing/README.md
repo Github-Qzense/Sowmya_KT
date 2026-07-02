@@ -118,6 +118,11 @@ date/
 where each detected fish instance is saved as an individual segmented image.
 
 ---
+## Reports
+
+This folder contains the confusion matrices and classification reports generated for the app testing data.
+
+---
 
 ## Data Sources
 

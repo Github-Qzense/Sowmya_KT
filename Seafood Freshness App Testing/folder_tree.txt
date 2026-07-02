@@ -1,0 +1,26 @@
+Seafood Freshness App Testing
+├── generated-results/
+├── notebooks/
+│   └── New app data analysis.ipynb
+├── raw_data/
+│   ├── input/
+│   │   └── 2024-12-17/
+│   │       └── sardine/
+│   │           ├── Bad/
+│   │           └── Good/
+│   └── output/
+│       └── 2024-12-17/
+│           └── sardine/
+├── Reports/
+│   ├── Current Freshness Models overall Performance Report.pptx
+│   ├── Current Sardine Freshness Model different test results.pptx
+│   ├── Fish_Freshness_Model_Performance_Report.pptx
+│   └── Freshness_Models_Performance_Report.pptx
+├── src/
+│   ├── app_testing_results_analysis.py
+│   ├── run_downloads.py
+│   ├── s3_downloader.py
+│   └── segment_app_testing_data.py
+├── folder_tree.txt
+├── README.md
+└── requirements.txt

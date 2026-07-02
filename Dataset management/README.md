@@ -27,12 +27,6 @@ Dataset Management/
 │   ├── Produce statistical reports
 │   └── Export analysis files
 │
-├── App Testing/
-│   ├── Retrieve mobile app testing data
-│   ├── Download testing images
-│   ├── Evaluate deployed models
-│   └── Generate performance metrics
-│
 ├── generated-files/
 │
 ├── docs/
@@ -89,12 +83,6 @@ Contains notebooks and utilities for collecting, organizing, cleaning, and prepa
 ### `Dataset Analysis`
 
 Contains tools for generating metadata, dataset statistics, visualizations, and reports used throughout the research and model development process.
-
----
-
-### `App Testing`
-
-Contains scripts and notebooks for evaluating the deployed Fish Freshness mobile application using real-world testing data, including prediction analysis, image downloads, and performance evaluation.
 
 ---
 
