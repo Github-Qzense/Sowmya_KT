@@ -1,0 +1,39 @@
+Seafood Freshness App Project
+├── app demo/
+│   └── freshness app video with captions.mp4
+├── literature review/
+│   └── 6670_H2.pdf
+├── patent research/
+│   ├── white paper reference/
+│   │   └── Photo AI - Whitepaper.pdf
+│   ├── Patents analysis.pdf
+│   ├── Questions for patent filling.docx
+│   ├── Questions for patent filling.pdf
+│   └── sowmya_patents_research_work.pdf
+├── white paper/
+│   ├── Replication-of-fishapp-whitepaper-data/
+│   │   ├── docs/
+│   │   │   ├── Sardine and Mackerel White paper.docx
+│   │   │   └── Sardine and Mackerel White paper.pdf
+│   │   ├── notebook-results/
+│   │   │   ├── prod_flow_mackerel_results.csv
+│   │   │   ├── prod_flow_mackerel_results_after_rounding.csv
+│   │   │   ├── prod_flow_sardine_results.csv
+│   │   │   └── prod_flow_sardine_results_after_rounding.csv
+│   │   ├── notebooks/
+│   │   │   └── prod test sardine&mackerel.ipynb
+│   │   ├── white-paper-assets/
+│   │   │   ├── generated-results/
+│   │   │   ├── images/
+│   │   │   ├── sample-inputs/
+│   │   │   ├── highlight_cuts.py
+│   │   │   ├── plot_model_architectures.py
+│   │   │   ├── segment_fish.py
+│   │   │   └── visualize.py
+│   │   ├── .gitignore
+│   │   ├── README.md
+│   │   ├── requirements.txt
+│   │   ├── requirements_macos.txt
+│   │   └── Setup.md
+│   └── AI powered freshness classification image data draft.docx
+└── folder_tree.txt
