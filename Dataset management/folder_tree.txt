@@ -1,0 +1,36 @@
+Dataset management
+├── app testing data/
+│   ├── downloaded_data/
+│   │   ├── input/
+│   │   │   └── 2024-12-17/
+│   │   │       └── sardine/
+│   │   │           ├── Bad/
+│   │   │           └── Good/
+│   │   └── output/
+│   │       └── 2024-12-17/
+│   │           └── sardine/
+│   ├── app_testing_results_analysis.py
+│   ├── New app data analysis.ipynb
+│   ├── run_downloads.py
+│   ├── s3_downloader.py
+│   └── segment_app_testing_data.py
+├── Data Collection/
+│   ├── Download_s3_data.ipynb
+│   ├── Final Data.ipynb
+│   ├── Manual_data.ipynb
+│   ├── reason-based-data.ipynb
+│   └── reorganize S3_Final_Data.ipynb
+├── Dataset Analysis/
+│   ├── create complete data df with reasons.ipynb
+│   └── Dataset.ipynb
+├── docs/
+│   ├── Data handling Report.pdf
+│   └── Dataset Management documentation.docx
+├── generated-files/
+│   ├── complete data.csv
+│   ├── Dataset_distribution.xlsx
+│   ├── manual_data.csv
+│   ├── Misclassified_data.txt
+│   └── reasons based dataset.csv
+├── folder_tree.txt
+└── requirements.txt
