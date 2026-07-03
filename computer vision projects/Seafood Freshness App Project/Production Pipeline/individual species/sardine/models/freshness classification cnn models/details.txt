@@ -1,0 +1,5 @@
+- sardine_final_model_20epochs_k_gpu.keras is the final model after fine-tuning saved in keras format.
+
+- sardine_model.keras is the model used for fine-tuning with 20 epochs.
+
+- sardine_model_20epochs_k_gpu is the final model after fine-tuning saved in tf.savedmodel format.
