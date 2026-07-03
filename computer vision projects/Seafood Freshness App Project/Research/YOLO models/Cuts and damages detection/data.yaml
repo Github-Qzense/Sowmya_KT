@@ -1,0 +1,13 @@
+train: C:/Users/sowmy/Downloads/Cuts and damages detection.v3i.yolov8/train
+val: C:/Users/sowmy/Downloads/Cuts and damages detection.v3i.yolov8/valid
+test: C:/Users/sowmy/Downloads/Cuts and damages detection.v3i.yolov8/test
+
+nc: 2
+names: ['cuts', 'head-damage']
+
+roboflow:
+  workspace: sowmya-ehtuu
+  project: cuts-and-damages-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sowmya-ehtuu/cuts-and-damages-detection/dataset/3

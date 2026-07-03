@@ -1,0 +1,13 @@
+description: Ultralytics YOLOv8l-seg model trained on /kaggle/working/datasets/fish-2/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-10-25T21:05:44.636805'
+version: 8.0.188
+stride: 32
+task: segment
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: fish
