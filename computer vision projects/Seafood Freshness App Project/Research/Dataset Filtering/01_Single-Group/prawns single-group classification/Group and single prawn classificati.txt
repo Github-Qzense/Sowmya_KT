@@ -1,0 +1,19 @@
+Group and single prawn classification project
+
+dataset
+train : Group-326(july+oct), Single-300(july)
+test : Group-447(july+aug+sep), Single-410(july)
+
+model architecture : 
+mobilenetv2, flatten, 150, 50, softmax
+
+optimizer : adam(lr=default)
+target size : (224, 224)
+metrics : accuracy
+losses : f1_score_1_loss(a=0.00001)
+checkpoint : min loss
+epochs : 10
+colorspace : RGB
+batch size : 32
+
+test acc : 100
