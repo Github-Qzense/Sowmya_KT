@@ -96,23 +96,33 @@ def show_comparison(
     
 
 if __name__ == "__main__":
-    show_comparison(
-    before=r"../sample-inputs/2024-12-24_10_10_40_(18130)_sardine_input.jpeg",
-    after=[r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_0.png",
-           r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png"],
-    before_title="Original Image",
-    after_title="Segmented Fish",
-    figure_title="Fish Segmentation",
-    save_path=r"../generated-results/comparison1.png",
-    dpi=1200,
-    )
+    # show_comparison(
+    # before=r"../sample-inputs/2024-12-24_10_10_40_(18130)_sardine_input.jpeg",
+    # after=[r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_0.png",
+    #        r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png"],
+    # before_title="Original Image",
+    # after_title="Segmented Fish",
+    # figure_title="Fish Segmentation",
+    # save_path=r"../generated-results/comparison1.png",
+    # dpi=1200,
+    # )
+    
+    # show_comparison(
+    #     before=r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png",
+    #     after=r"../generated-results/sardine_fish_cuts.png",
+    #     before_title="Segmented Fish",
+    #     after_title="Detected Damages",
+    #     figure_title="Fish Damage Detection",
+    #     save_path=r"../generated-results/comparison2.png",
+    #     dpi=600,
+    # )
     
     show_comparison(
-        before=r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png",
-        after=r"../generated-results/sardine_fish_cuts.png",
+        before=r"../generated-results/2025-01-28_10_50_33_(19200)_mackerel_input_segmented_0.png",
+        after=r"../generated-results/mackerel_fish_cuts.png",
         before_title="Segmented Fish",
         after_title="Detected Damages",
         figure_title="Fish Damage Detection",
-        save_path=r"../generated-results/comparison2.png",
-        dpi=600,
+        save_path=r"../generated-results/comparison3.png",
+        dpi=1200,
     )
