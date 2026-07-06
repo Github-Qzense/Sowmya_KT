@@ -95,7 +95,7 @@ def extract_single_image_segment(
 # ------------------------------------------------------------------
 def segment_fish(
     image,
-    save_path="generated-results/segmented_fish.png",
+    save_path=r"../generated-results/segmented_fish.png",
     conf=0.75,
     dpi=300,
     show=True,
@@ -185,15 +185,15 @@ def segment_fish(
 if __name__ == "__main__":
     print("Running example...")
     segmented = segment_fish(
-        image="./sample-inputs/2024-12-24_10_10_40_(18130)_sardine_input.jpeg", # replace with your image path
-        # save_path="fish_segmented.png",
+        image=r"../sample-inputs/2024-12-24_10_10_40_(18130)_sardine_input.jpeg", # replace with your image path
+        # save_path=r"../generated-results/segmented_fish.png",
         conf=0.75,
         dpi=1200,
     )
     
     segmented = segment_fish(
-        image="sample-inputs/2025-01-28_10_50_33_(19200)_mackerel_input.jpeg", # replace with your image path
-        # save_path="fish_segmented.png",
+        image=r"../sample-inputs/2025-01-28_10_50_33_(19200)_mackerel_input.jpeg", # replace with your image path
+        # save_path=r"../generated-results/segmented_fish.png",
         conf=0.75,
         dpi=1200,
     )

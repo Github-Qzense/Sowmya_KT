@@ -16,7 +16,7 @@ from ultralytics import YOLO
 # Load Cut Segmentation Model
 # ------------------------------------------------------------------
 # CUT_MODEL_PATH = r"mobileapp models\cut-seg_openvino_model" # replace with your model path
-CUT_MODEL_PATH = r"../mobileapp models/cut-seg_openvino_model" # replace with your model path
+CUT_MODEL_PATH = r"../../mobileapp models/cut-seg_openvino_model" # replace with your model path
 
 cut_model = YOLO(CUT_MODEL_PATH, task="segment")
 

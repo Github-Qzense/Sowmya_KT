@@ -16,8 +16,9 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.utils import plot_model
 
 
-def sardine_model(save_path="generated-results/sardine_model_flowchart.png", dpi=300):
+def sardine_model(save_path=r"../generated-results/sardine_model_flowchart.png", dpi=300):
     # Input layer
+    
     input_layer = Input(shape=(224, 224, 3), name="Damage_Detection")
 
     # Base model
@@ -74,7 +75,7 @@ def sardine_model(save_path="generated-results/sardine_model_flowchart.png", dpi
     return model
 
 
-def mackerel_model(save_path="generated-results/mackerel_model_flowchart.png", dpi=300):
+def mackerel_model(save_path=r"../generated-results/mackerel_model_flowchart.png", dpi=300):
     # Input layer
     input_layer = Input(shape=(224, 224, 3), name="Damage_Detection")
 
