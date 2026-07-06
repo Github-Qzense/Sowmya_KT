@@ -1,3 +1,9 @@
+'''
+plot_model_architectures.py
+This script generates and saves the architecture flowcharts for the sardine and mackerel fish freshness classification models using Keras' plot_model function.
+run this file by using the command in terminal: python path/to/plot_model_architectures.py
+'''
+
 from tensorflow.keras.layers import (
     Input,
     Dense,

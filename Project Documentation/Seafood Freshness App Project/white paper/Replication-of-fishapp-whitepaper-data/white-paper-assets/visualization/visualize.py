@@ -3,6 +3,7 @@ visualize.py
 
 Utility to visualize before and after images side-by-side
 and save publication-quality figures.
+run this file by using the command in terminal: python path/to/visualize.py
 """
 
 import numpy as np

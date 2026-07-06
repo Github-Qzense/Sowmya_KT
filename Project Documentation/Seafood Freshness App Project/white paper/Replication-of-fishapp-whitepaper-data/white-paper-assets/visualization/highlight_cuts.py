@@ -3,6 +3,7 @@ highlight_cuts.py
 
 Detect and highlight cuts/damages on a segmented fish image.
 Update the YOLO openvino model path and image path in the code.
+run this file by using the command in terminal: python path/to/highlight_cuts.py
 """
 
 import cv2

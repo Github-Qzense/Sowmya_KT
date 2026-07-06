@@ -3,6 +3,7 @@ segment_fish.py
 
 Utility to segment a fish from an input image and save it with a white background.
 Update the YOLO openvino model path and image path in the code.
+run this file by using the command in terminal: python path/to/segment_fish.py
 """
 
 import cv2, os
@@ -14,7 +15,7 @@ from ultralytics import YOLO
 # ------------------------------------------------------------------
 # Load Fish Segmentation Model
 # ------------------------------------------------------------------
-FISH_MODEL_PATH = r"../notebooks/mobileapp models/best_openvino_model" # replace with your model path
+FISH_MODEL_PATH = r"../../mobileapp models/best_openvino_model" # replace with your model path
 
 fish_model = YOLO(FISH_MODEL_PATH, task="segment")
 print("Model loaded")

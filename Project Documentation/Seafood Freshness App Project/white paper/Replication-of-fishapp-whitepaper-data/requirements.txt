@@ -13,4 +13,3 @@ pydot==1.4.2
 notebook
 jupyter
 ipykernel
-uv pip install 

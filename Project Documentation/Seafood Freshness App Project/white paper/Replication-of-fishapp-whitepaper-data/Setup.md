@@ -39,3 +39,9 @@
 
 If that shows an error, refer to these commands
 sudo apt-get install -y libgl1 libglib2.0-0
+
+8. Download data from Github Releases
+
+Run this command : `python download_modelfiles_data.py`
+
+9. 
