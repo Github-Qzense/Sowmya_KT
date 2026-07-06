@@ -1,0 +1,19 @@
+*.bin
+*.pt
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datasets
+Mackerel Recent App Testing Input Data/
+Sardine Recent App Testing Input Data/
+
+# Models
+mobileapp models/
