@@ -3,6 +3,7 @@ segment_fish.py
 
 Utility to segment a fish from an input image and save it with a white background.
 Update the YOLO openvino model path and image path in the code.
+run this file by using the command in terminal: python path/to/segment_fish.py
 """
 
 import cv2, os
@@ -14,7 +15,7 @@ from ultralytics import YOLO
 # ------------------------------------------------------------------
 # Load Fish Segmentation Model
 # ------------------------------------------------------------------
-FISH_MODEL_PATH = r"../notebooks/mobileapp models/best_openvino_model" # replace with your model path
+FISH_MODEL_PATH = r"../../mobileapp models/best_openvino_model" # replace with your model path
 
 fish_model = YOLO(FISH_MODEL_PATH, task="segment")
 print("Model loaded")
@@ -94,7 +95,7 @@ def extract_single_image_segment(
 # ------------------------------------------------------------------
 def segment_fish(
     image,
-    save_path="generated-results/segmented_fish.png",
+    save_path=r"../generated-results/segmented_fish.png",
     conf=0.75,
     dpi=300,
     show=True,
@@ -164,7 +165,7 @@ def segment_fish(
             add_padding=True,
         )
         print(f"Saving {filename}...")   
-        save_path = f"./generated-results/{filename}_segmented_{idx}.png"     
+        save_path = f"../generated-results/{filename}_segmented_{idx}.png"     
         plt.imsave(save_path, segmented, dpi=dpi)
        
         if show:
@@ -184,15 +185,15 @@ def segment_fish(
 if __name__ == "__main__":
     print("Running example...")
     segmented = segment_fish(
-        image="./sample-inputs/2024-12-24_10_10_40_(18130)_sardine_input.jpeg", # replace with your image path
-        # save_path="fish_segmented.png",
+        image=r"../sample-inputs/2024-12-24_10_10_40_(18130)_sardine_input.jpeg", # replace with your image path
+        # save_path=r"../generated-results/segmented_fish.png",
         conf=0.75,
         dpi=1200,
     )
     
     segmented = segment_fish(
-        image="sample-inputs/2025-01-28_10_50_33_(19200)_mackerel_input.jpeg", # replace with your image path
-        # save_path="fish_segmented.png",
+        image=r"../sample-inputs/2025-01-28_10_50_33_(19200)_mackerel_input.jpeg", # replace with your image path
+        # save_path=r"../generated-results/segmented_fish.png",
         conf=0.75,
         dpi=1200,
     )

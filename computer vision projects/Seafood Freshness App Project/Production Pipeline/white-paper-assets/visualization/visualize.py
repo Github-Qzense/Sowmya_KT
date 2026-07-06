@@ -3,6 +3,7 @@ visualize.py
 
 Utility to visualize before and after images side-by-side
 and save publication-quality figures.
+run this file by using the command in terminal: python path/to/visualize.py
 """
 
 import numpy as np
@@ -27,7 +28,7 @@ def show_comparison(
     before_title="Before",
     after_title="After",
     figure_title="Comparison",
-    save_path="generated-results/comparison.png",
+    save_path=r"../generated-results/comparison.png",
     dpi=300,
     figsize=(12, 6),
     show=True,
@@ -96,22 +97,22 @@ def show_comparison(
 
 if __name__ == "__main__":
     show_comparison(
-    before="sample-inputs/2024-12-24_10_10_40_(18130)_sardine_input.jpeg",
-    after=["generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_0.png",
-           "generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png"],
+    before=r"../sample-inputs/2024-12-24_10_10_40_(18130)_sardine_input.jpeg",
+    after=[r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_0.png",
+           r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png"],
     before_title="Original Image",
     after_title="Segmented Fish",
     figure_title="Fish Segmentation",
-    save_path="generated-results/comparison1.png",
+    save_path=r"../generated-results/comparison1.png",
     dpi=1200,
     )
     
     show_comparison(
-        before="generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png",
-        after="generated-results/sardine_fish_cuts.png",
+        before=r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png",
+        after=r"../generated-results/sardine_fish_cuts.png",
         before_title="Segmented Fish",
         after_title="Detected Damages",
         figure_title="Fish Damage Detection",
-        save_path="generated-results/comparison2.png",
+        save_path=r"../generated-results/comparison2.png",
         dpi=600,
     )

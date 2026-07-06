@@ -3,6 +3,7 @@ highlight_cuts.py
 
 Detect and highlight cuts/damages on a segmented fish image.
 Update the YOLO openvino model path and image path in the code.
+run this file by using the command in terminal: python path/to/highlight_cuts.py
 """
 
 import cv2
@@ -15,7 +16,7 @@ from ultralytics import YOLO
 # Load Cut Segmentation Model
 # ------------------------------------------------------------------
 # CUT_MODEL_PATH = r"mobileapp models\cut-seg_openvino_model" # replace with your model path
-CUT_MODEL_PATH = r"../notebooks/mobileapp models/cut-seg_openvino_model" # replace with your model path
+CUT_MODEL_PATH = r"../../mobileapp models/cut-seg_openvino_model" # replace with your model path
 
 cut_model = YOLO(CUT_MODEL_PATH, task="segment")
 
@@ -97,7 +98,7 @@ def map_polygon_to_original(polygon, transform):
 # ------------------------------------------------------------------
 def highlight_cuts(
     image,
-    save_path="generated-results/fish_cuts.png",
+    save_path=r"../generated-results/fish_cuts.png",
     conf=0.5,
     alpha=0.3,
     dpi=300,
@@ -258,16 +259,16 @@ def highlight_cuts(
 # ------------------------------------------------------------------
 if __name__ == "__main__":
     highlighted = highlight_cuts(
-        "generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png", # replace with your image path
-        save_path="generated-results/sardine_fish_cuts.png",
+        r"../generated-results/2024-12-24_10_10_40_(18130)_sardine_input_segmented_1.png", # replace with your image path
+        save_path=r"../generated-results/sardine_fish_cuts.png",
         conf=0.85,
         dpi=1200,
     )
     
     
     highlighted = highlight_cuts(
-        "generated-results/2025-01-28_10_50_33_(19200)_mackerel_input_segmented_0.png", # replace with your image path
-        save_path="generated-results/mackerel_fish_cuts.png",
+        r"../generated-results/2025-01-28_10_50_33_(19200)_mackerel_input_segmented_0.png", # replace with your image path
+        save_path=r"../generated-results/mackerel_fish_cuts.png",
         conf=0.85,
         dpi=1200,
     )
