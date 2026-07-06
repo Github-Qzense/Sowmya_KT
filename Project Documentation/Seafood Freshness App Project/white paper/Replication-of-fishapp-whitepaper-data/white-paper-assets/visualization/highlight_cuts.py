@@ -160,6 +160,7 @@ def highlight_cuts(
         print("✓ No cuts detected.")
 
     else:
+        print(f"✓ {len(results[0].masks.xy)} cuts detected.")
         overlay = highlighted.copy()
 
         # First loop: only masks
