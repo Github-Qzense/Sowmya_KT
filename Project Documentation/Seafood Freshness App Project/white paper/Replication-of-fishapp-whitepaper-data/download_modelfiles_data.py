@@ -8,7 +8,7 @@ we can run this file by using the command: python download_modelfiles_data.py
 import os
 
 links = [
-    "https://github.com/Github-Qzense/Sowmya_KT/releases/download/v1/models.zip",
+    "https://github.com/Github-Qzense/Sowmya_KT/releases/download/v1/mobileapp.models.zip",
     "https://github.com/Github-Qzense/Sowmya_KT/releases/download/v1/Mackerel.Recent.App.Testing.Input.Data.zip",
     "https://github.com/Github-Qzense/Sowmya_KT/releases/download/v1/Sardine.Recent.App.Testing.Input.Data.zip",
 ]
